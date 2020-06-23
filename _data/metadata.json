@@ -1,0 +1,15 @@
+{
+    "title": "Sherpa",
+    "url": "https://heymynameisrob.com",
+    "description": "This time, it's-a-personal",
+    "feed": {
+      "subtitle": "This time, it's-a-personal",
+      "filename": "feed.xml",
+      "path": "/feed/feed.xml",
+      "id": "https://heymynameisrob.com"
+    },
+    "author": {
+      "name": "Rob Hough",
+      "email": "robhough180@gmail.com"
+    }
+  }

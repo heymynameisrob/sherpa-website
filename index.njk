@@ -1,0 +1,73 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<header role="banner">
+  <div class="l-inner">
+    <h1>Sherpa helps product teams work better, together</h1>
+    <p>A free community-driven weekly to help you learn how to work more effectively, achieve you goals faster and get a leg up on your product journey.</p>
+    {% include "_includes/signup.njk" %}
+  </div>
+</header>
+<section class="screenshot">
+  <div class="l-inner">
+    <picture>
+      <img srcset="/static/img/screenshot-ui@2x.png 2x, /static/img/screenshot-ui@3x.png 3x" src="/static/img/screenshot-ui.png" alt="Sherpa" loading="lazy" />
+      <div class="screenshot-decor">
+        {% include "static/img/decor.svg" %}
+      </div>
+    </picture>
+  </div>
+</section>
+<section class="features" id="features">
+  <div class="l-container">
+    <div class="title-wrap">
+      <h4 class="t-no-margin">What Sherpa does for you</h4>
+    </div>
+    <div class="features-grid">
+      <article>
+        <img src="https://placehold.it/96x96" alt="" />
+        <h4>Learn a better way of working</h4>
+        <p>From innovation workshops to managing large projects – get better, faster</p>
+      </article>
+      <article>
+        <img src="https://placehold.it/96x96" alt="" />
+        <h4>Learn a better way of working</h4>
+        <p>From innovation workshops to managing large projects – get better, faster</p>
+      </article>
+      <article>
+        <img src="https://placehold.it/96x96" alt="" />
+        <h4>Learn a better way of working</h4>
+        <p>From innovation workshops to managing large projects – get better, faster</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="cta" id="cta">
+  <div class="l-container">
+    <div class="l-inner">
+      <h3>Whether you’ve got the next big idea, or you’re a working product team. Sherpa will guide you on how to effectively work through your challenges.</h3>
+      {%include "_includes/signup.njk" %}
+    </div>
+  </div>
+</section>
+<section class="about-nuom section-pt" id="about">
+  <div class="l-container">
+    <div class="image-text-block">
+      <picture>
+        <img srcset="/static/img/team@2x.jpg 2x, /static/img/team@3x.jpg 3x" src="/static/img/team.jpg" alt="nuom team" loading="lazy" />
+        <div class="team-decor">
+          {% include "static/img/decor-2.svg" %}
+        </div>
+      </picture>
+      <article>
+        <h2>Built by nuom, an agile design studio with a difference</h2>
+        <p>We are a digital product and service design partner based in the heart of the UK. As expert digital partners, we craft successful products and unlock huge value for our clients. We’ve learn a lot of the years and we want to help people like you work better, together.</p>
+        <a href="https://nuom.co.uk">Learn more about nuom</a>
+      </article> 
+    </div>
+  </div>
+</section>

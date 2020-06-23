@@ -1,0 +1,110 @@
+.screenshot picture {
+  position: relative;
+  display:block;
+  margin:0 auto;
+}
+.screenshot picture img {
+  margin:0 auto;
+  box-shadow:0 0 100px rgba(0,0,0,0.08);
+  border-radius:1rem;
+
+}
+.screenshot picture .screenshot-decor {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:grid;
+  justify-content: center;
+  z-index:-1;  
+}
+.screenshot picture .screenshot-decor svg {
+  max-width:100%;
+  height:auto;
+}
+
+.features,
+.cta {
+  background-color:var(--color-bg);
+  text-align:center;
+}
+.features .title-wrap {
+  display:inline-block;
+  padding:var(--p-base);
+  border-radius:var(--p-7);
+  background-color:var(--color-bg);
+  box-shadow:0 4px 1rem rgba(0,0,0,0.08);
+  margin:0 auto;
+  transform:rotate(-1deg) translateY(-50%);
+}
+
+.features-grid {
+  display:block;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:1.5rem;
+  padding-top:var(--p-7);  
+}
+@media(min-width:48rem) {
+  .features-grid {
+    display:grid;
+  }
+}
+
+.features-grid article {
+  display:block;
+  margin-bottom:var(--p-4);
+  text-align:center;
+}
+.features-grid article img {  
+  margin:0 auto;
+  margin-bottom:var(--p-3);
+}
+
+.about-nuom .image-text-block {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow:wrap;
+}
+.about-nuom .image-text-block article {
+  max-width:48ch;    
+}
+@media(min-width:48rem) {
+  .about-nuom .image-text-block {
+    flex-flow:row nowrap;
+  }
+  .about-nuom .image-text-block article {
+    order:-1;
+    padding-right:var(--p-base);
+  }
+  
+}
+.about-nuom .image-text-block picture {
+  margin-bottom:var(--p-5);
+}
+.about-nuom picture {
+  position: relative;
+  display:block;
+  margin:0 auto;
+}
+.about-nuom picture img {
+  margin:0 auto;
+  box-shadow:0 0 100px rgba(0,0,0,0.08);
+  border-radius:1rem;
+
+}
+.about-nuom picture .team-decor {
+  position:absolute;
+  top:-10%;
+  left:0;
+  width:100%;
+  height:100%;
+  display:grid;
+  justify-content: center;
+  z-index:-1;  
+}
+.about-nuom picture .team-decor svg {
+  max-width:100%;
+  height:auto;
+}

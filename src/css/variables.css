@@ -1,0 +1,45 @@
+:root {
+  --color-text-high:#1d1d1d;
+  --color-text-med:#444;
+  --color-text-low:#888;
+
+  --color-primary:#3b5bdb;
+  --color-primary-dark:#0D1F77;
+  --color-primary-muted:#EDF2FF;
+  
+  --color-muted: #F1F3F5;
+  --color-grey:#CED4DA;
+  --color-bg: #fff;
+
+  --font-stack-headline:'Inter', -system-ui, sans-serif;
+  --font-stack-body:var(--font-stack-headline);
+
+  --type-xs:0.75rem;
+  --type-sm:0.875rem;
+  --type-base:1rem; 
+  --type-md:1.125rem;
+  --type-lg:1.25rem; 
+  --type-xl:1.75rem;
+
+  --p-base:1rem;
+  --p-1:0.5rem;
+  --p-2:1rem;
+  --p-3:1.5rem;
+  --p-4:2rem;
+  --p-5:3rem;
+  --p-6:3.5rem;
+  --p-7:5rem;
+  
+}
+
+@media(min-width:80rem) {
+  :root {
+    --type-base:1.125rem;
+    --type-md:1.5rem;
+    --type-lg:2rem; 
+    --type-xl:3rem;
+        
+    --p-6:5rem;
+    --p-7:7rem; 
+  }
+}
