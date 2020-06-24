@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-coffee</title>
+    <defs>
+        <path d="M7.11111111,17.7777778 L3.55555556,17.7777778 C1.59187645,17.7777778 0,16.1859013 0,14.2222222 L0,7.11111111 C0,5.15555556 1.6,3.55555556 3.55555556,3.55555556 L7.11111111,3.55555556 L7.11111111,0 L32,0 L32,17.7777778 C32,21.705136 28.8162471,24.8888889 24.8888889,24.8888889 L14.2222222,24.8888889 C10.294864,24.8888889 7.11111111,21.705136 7.11111111,17.7777778 Z" id="path-1"></path>
+        <filter x="-10.9%" y="-10.0%" width="121.9%" height="128.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0515635971   0 0 0 0 0.122921284   0 0 0 0 0.465438179  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MVP-1-/-Landing-Page" transform="translate(-413.000000, -1391.000000)">
+            <g id="icon-coffee" transform="translate(413.000000, 1391.000000)">
+                <circle id="Oval" fill="#EDF2FF" cx="32" cy="32" r="32"></circle>
+                <g id="coffee" transform="translate(14.000000, 18.000000)" fill-rule="nonzero">
+                    <polygon id="Shape" fill-opacity="0.5" fill="#3B5BDB" points="3.55555556 28.4444444 3.55555556 26.6666667 35.5555556 26.6666667 35.5555556 28.4444444 28.4444444 32 10.6666667 32"></polygon>
+                    <g id="Path">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#3B5BDB" xlink:href="#path-1"></use>
+                    </g>
+                    <polygon id="Path" fill="#EBEEFB" points="7.11111111 14.2222222 7.11111111 7.11111111 3.55555556 7.11111111 3.55555556 14.2222222"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,15 +1,15 @@
 {
-    "title": "Sherpa",
-    "url": "https://heymynameisrob.com",
-    "description": "This time, it's-a-personal",
+    "title": "Free weekly newsletter all about building products – Sherpa",
+    "url": "https://sherpatoolbox.com",
+    "description": "A free weekly newsletter helping you work more effectively, get your ideas out the door faster and secure your footing on new projects.",
     "feed": {
       "subtitle": "This time, it's-a-personal",
       "filename": "feed.xml",
       "path": "/feed/feed.xml",
-      "id": "https://heymynameisrob.com"
+      "id": "https://sherpatoolbox.com"
     },
     "author": {
-      "name": "Rob Hough",
-      "email": "robhough180@gmail.com"
+      "name": "nuom",
+      "email": "rob.hough@nuom.co.uk"
     }
   }

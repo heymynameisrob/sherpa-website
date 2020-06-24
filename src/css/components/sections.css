@@ -63,6 +63,7 @@
 }
 .features-grid article img {  
   margin:0 auto;
+  max-width:4rem;
   margin-bottom:var(--p-3);
 }
 
