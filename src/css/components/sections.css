@@ -43,7 +43,7 @@
   display:block;
   grid-template-columns: repeat(3, 1fr);
   grid-gap:1.5rem;
-  padding-top:var(--p-7);  
+  
 }
 @media(min-width:48rem) {
   .features-grid {

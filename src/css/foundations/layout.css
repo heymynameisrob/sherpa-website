@@ -32,7 +32,7 @@
 
 header[role="banner"] {
   text-align:center;
-  padding:var(--p-7) 0;
+  padding:var(--p-6) 0;
 }
 @media(min-width:48rem) {
   header[role="banner"] {
@@ -54,8 +54,17 @@ header[role="banner"] p {
 
 
 section {
-  padding-bottom:var(--p-7);
+  padding-bottom:var(--p-6);
 }
-section.section-pt {
-  padding-top:var(--p-7);
+.section-pt {
+  padding-top:var(--p-6);
+}
+
+@media(min-width:48rem) {
+  section {
+    padding-bottom:var(--p-7);
+  }
+  section.section-pt {
+    padding-top:var(--p-7);
+  }
 }
