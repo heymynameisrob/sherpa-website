@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 # Privacy Policy
 
-This Privacy Policy explains what information This Is Creative Ltd (“nuom”, “we”, “our” or “us”) collects, uses, retains and protects, in relation to the use of the website www.nuom.co.uk.
+This Privacy Policy explains what information This Is Creative Ltd (“nuom”, “we”, “our” or “us”) collects, uses, retains and protects, in relation to the use of the website www.sherpatoolbox.com
 
 In this privacy policy we also outline how the collection of this information relates to your associated data protection and privacy rights and how you can choose to restrict the collection of your information or use of your personal data.
 

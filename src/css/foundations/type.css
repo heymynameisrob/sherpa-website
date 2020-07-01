@@ -59,7 +59,8 @@ a {
 }
 
 p + p,
-p + a {
+p + a,
+p + h3 {
   margin-top:var(--p-base);
 }
 

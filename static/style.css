@@ -170,7 +170,8 @@ a {
   font-size:var(--type-base);
 }
 p + p,
-p + a {
+p + a,
+p + h3 {
   margin-top:var(--p-base);
 }
 small {
