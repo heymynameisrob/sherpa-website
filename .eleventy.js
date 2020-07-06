@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("LLL yyyy");
   });
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");

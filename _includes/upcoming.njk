@@ -1,0 +1,18 @@
+<section class="upcoming">
+  <div class="l-container">
+    <h5>upcoming topics</h5>
+    <ul>
+      {% for topic in upcomingList %}
+        <li>
+          <article>
+            <img src="{{topic.data.featuredImage}}" alt="{{topic.data.title}}" loading="lazy" />
+            <div class="topic-overlay">
+              <p><strong>{{topic.data.title}}</strong></p>
+              <time>{{ topic.date | readableDate }}</time>
+            </div>
+          </article>          
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
