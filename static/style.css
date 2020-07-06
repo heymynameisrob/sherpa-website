@@ -354,26 +354,10 @@ input[type="text"] {
 }
 .screenshot picture img {
   margin:0 auto;
-  box-shadow:0 0 100px rgba(0,0,0,0.08);
-  border-radius:1rem;
-
-}
-.screenshot picture .screenshot-decor {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display:grid;
-  justify-content: center;
-  z-index:-1;  
-}
-.screenshot picture .screenshot-decor svg {
-  max-width:100%;
-  height:auto;
 }
 .features,
-.cta {
+.cta,
+.benefits {
   background-color:var(--color-bg);
   text-align:center;
 }
@@ -415,17 +399,18 @@ input[type="text"] {
 .cta h3 {
   line-height: 1.5;
 }
-.about-nuom .image-text-block {
+.image-text-block {
   display:flex;
   justify-content: space-between;
   align-items: center;
   flex-flow:wrap;
 }
-.about-nuom .image-text-block article {
+.image-text-block article {
   max-width:48ch;    
+  text-align:left;
 }
 @media(min-width:48rem) {
-  .about-nuom .image-text-block {
+  .image-text-block {
     flex-flow:row nowrap;
   }
   .about-nuom .image-text-block article {
@@ -434,31 +419,24 @@ input[type="text"] {
   }
   
 }
-.about-nuom .image-text-block picture {
+.image-text-block picture {
   margin-bottom:var(--p-5);
 }
-.about-nuom picture {
-  position: relative;
-  display:block;
-  margin:0 auto;
-}
-.about-nuom picture img {
+.image-text-block picture img {
   margin:0 auto;
   box-shadow:0 0 100px rgba(0,0,0,0.08);
   border-radius:1rem;
 
 }
-.about-nuom picture .team-decor {
-  position:absolute;
-  top:-10%;
-  left:0;
-  width:100%;
-  height:100%;
-  display:grid;
-  justify-content: center;
-  z-index:-1;  
+.image-text-block ul {
+  margin:1rem 0;
+  padding-left:1rem;
 }
-.about-nuom picture .team-decor svg {
-  max-width:100%;
-  height:auto;
+.image-text-block ul li {  
+  padding:.5rem 0;
+}
+.image-text-block ul li:before {
+  position: relative;
+  content: '✓';
+  left:-1rem;
 }

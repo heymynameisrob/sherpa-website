@@ -8,14 +8,15 @@ eleventyNavigation:
 <header role="banner">
   <div class="l-inner">
     <h1>Sherpa helps product teams work better, together</h1>
-    <p>A free digital journal, sent every Tuesday, helping you work more effectively, get your ideas out the door faster and secure your footing on new projects.</p>
+    <p>A free digital guide, sent every Tuesday, helping you work more effectively, get your ideas out the door faster and secure your footing on new projects.</p>
     {% include "_includes/signup.njk" %}
   </div>
 </header>
 <section class="screenshot">
   <div class="l-inner">
     <picture>
-      <img srcset="/static/img/screenshot-ui@2x.png 2x, /static/img/screenshot-ui@3x.png 3x" src="/static/img/screenshot-ui.png" alt="Sherpa" loading="lazy" />
+      <source media="(min-width: 48rem)" srcset="/static/img/screenshot-full.png, /static/img/screenshot-full@2x.png 2x" />
+      <img srcset="/static/img/screenshot-mobile@2x.png 2x" src="/static/img/screenshot-mobile.png" alt="Sherpa" loading="lazy" />
     </picture>
   </div>
 </section>
@@ -40,6 +41,24 @@ eleventyNavigation:
         <h4>Tap into expert knowledge</h4>
         <p>Our newsletter is backed by tried-and-tested methods that you can plug into staight away</p>
       </article>
+    </div>
+  </div>
+</section>
+<section class="benefits">
+  <div class="l-container">
+    <div class="image-text-block">
+      <picture>
+        <img srcset="/static/img/benefits@2x.jpg 2x, /static/img/benefits@3x.jpg 3x" src="/static/img/benefits.jpg" alt="Sherpa" loading="lazy" />
+      </picture>
+      <article>
+        <h2>An entire agency worth of knowledge in your inbox every week, for free</h2>
+        <p>Sherpa contains everything we've learnt about building products and running teams. We've battled tested these skills with 100s of clients over the years – making the mistakes so you don't have to.</p>
+        <ul>
+          <li>100s of lessons from our product playbook</li>
+          <li>Workshop techniques and exercises</li>
+          <li>Lean & Agile guides and tutorials</li>
+          <li>Early access to tools for running your team</li>
+      </article> 
     </div>
   </div>
 </section>
