@@ -1,9 +1,9 @@
 {
-    "title": "Free weekly newsletter all about building products – Sherpa",
+    "title": "Free weekly newsletter to help you work better in teams – Sherpa",
     "url": "https://sherpatoolbox.com",
     "description": "A free weekly newsletter helping you work more effectively, get your ideas out the door faster and secure your footing on new projects.",
     "feed": {
-      "subtitle": "This time, it's-a-personal",
+      "subtitle": "A free weekly newsletter helping you work more effectively, get your ideas out the door faster and secure your footing on new projects.",
       "filename": "feed.xml",
       "path": "/feed/feed.xml",
       "id": "https://sherpatoolbox.com"
