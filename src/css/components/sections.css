@@ -11,6 +11,7 @@
 }
 .upcoming ul {
   display:block;
+  margin-top:var(--p-3);
 }
 
 @media(min-width:48rem) {
@@ -62,6 +63,17 @@
   opacity:0.7;
   font-size:0.85rem;
   margin-top:0.5rem;
+}
+
+.display_archive {
+  display:block;
+  margin-top:var(--p-3);
+  margin-bottom:var(--p-3);
+}
+.display_archive .campaign {
+  display:block;
+  padding:0.5em 0;
+  border-bottom:1px solid var(--color-grey);
 }
 
 .features,
