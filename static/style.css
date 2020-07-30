@@ -214,18 +214,22 @@ header[role="banner"] {
 @media(min-width:48rem) {
   header[role="banner"] {
     text-align:center;
-    padding:var(--p-7) 0 var(--p-6) 0 ;
+    padding:var(--p-6) 0 var(--p-6) 0 ;
   }
 }
 header[role="banner"] h1 {
-  max-width:20ch;
+  max-width:15ch;
   margin-left:auto;
   margin-right:auto;
 }
 header[role="banner"] p {
-  max-width:40ch;
+  max-width:35ch;
   margin-left:auto;
   margin-right:auto;
+}
+header[role="banner"] img {
+  margin:0 auto;
+  margin-bottom:var(--p-5);
 }
 section {
   padding-bottom:var(--p-6);
