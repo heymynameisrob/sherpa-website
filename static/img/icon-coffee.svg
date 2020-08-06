@@ -14,12 +14,12 @@
             <g id="icon-coffee" transform="translate(413.000000, 1391.000000)">
                 <circle id="Oval" fill="#EDF2FF" cx="32" cy="32" r="32"></circle>
                 <g id="coffee" transform="translate(14.000000, 18.000000)" fill-rule="nonzero">
-                    <polygon id="Shape" fill-opacity="0.5" fill="#3B5BDB" points="3.55555556 28.4444444 3.55555556 26.6666667 35.5555556 26.6666667 35.5555556 28.4444444 28.4444444 32 10.6666667 32"></polygon>
+                    <polygon id="Shape" fill-opacity="0.5" fill="#EB482D" points="3.55555556 28.4444444 3.55555556 26.6666667 35.5555556 26.6666667 35.5555556 28.4444444 28.4444444 32 10.6666667 32"></polygon>
                     <g id="Path">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#3B5BDB" xlink:href="#path-1"></use>
+                        <use fill="#EB482D" xlink:href="#path-1"></use>
                     </g>
-                    <polygon id="Path" fill="#EBEEFB" points="7.11111111 14.2222222 7.11111111 7.11111111 3.55555556 7.11111111 3.55555556 14.2222222"></polygon>
+                    <polygon id="Path" fill="#EB482D" points="7.11111111 14.2222222 7.11111111 7.11111111 3.55555556 7.11111111 3.55555556 14.2222222"></polygon>
                 </g>
             </g>
         </g>

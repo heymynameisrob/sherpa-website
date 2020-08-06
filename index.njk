@@ -6,29 +6,34 @@ eleventyNavigation:
 ---
 
 <header role="banner">
-  <div class="l-inner">
-    <img src="/static/img/Logo.png" alt="Sherpa" />
-    <h1>Level-up your team in just 5 minutes</h1>
-    <p>Get the weekly email that helps you get more out of your team. Improve your skills and get better results, all for free.</p>    
-    {% include "_includes/signup.njk" %}
+  <div class="l-container header--inner"> 
+    <article>
+      <h1>Do more at work in under 5 minutes</h1>
+      <p>Get the weekly email that helps you work better with your team. Improve your skills, level-up your career and ship better products, all for free</p>    
+      {% include "_includes/signup.njk" %}
+      <ul>
+        <li>Go deep on a new topic every month</li>
+        <li>Insights into improving your workflow</li>
+        <li>Early-access to web classes, workshops and courses</li>
+        <li>Free templates, tools and docs for your team</li>
+      </ul>
+    </article>
+    <aside>
+      <picture>
+        <source media="(min-width: 48rem)" srcset="/static/img/Screenshot.png, /static/img/Screenshot@2x.png 2x" />
+        <img srcset="/static/img/screenshot-mobile@2x.png 2x" src="/static/img/screenshot-mobile.png" alt="Sherpa" loading="lazy" />
+      </picture>
+    </aside> 
+  </div>
+  <div class="more-wrap">
+    <a href="#features"><h4 class="t-no-margin">Learn more about Sherpa ↓</h4></a>
   </div>
 </header>
-<section class="screenshot">
-  <div class="l-inner">
-    <picture>
-      <source media="(min-width: 48rem)" srcset="/static/img/Screenshot.png, /static/img/Screenshot@2x.png 2x" />
-      <img srcset="/static/img/screenshot-mobile@2x.png 2x" src="/static/img/screenshot-mobile.png" alt="Sherpa" loading="lazy" />
-    </picture>
-  </div>
-</section>
-{% set upcomingList = collections.upcoming %}
-{% include "_includes/upcoming.njk" %}
-<section class="features" id="features">
-  <div class="l-container">
-    <div class="title-wrap">
-      <h4 class="t-no-margin">What Sherpa does for you</h4>
-    </div>
-    <div class="features-grid section-pt">
+{# {% set upcomingList = collections.upcoming %}
+{% include "_includes/upcoming.njk" %} #}
+<section class="features section-pt" id="features">
+  <div class="l-container">    
+    <div class="features-grid">
       <article> 
         <img src="/static/img/icon-vip.svg" alt="" />
         <h4>Become a VIP in your team</h4>
@@ -56,11 +61,7 @@ eleventyNavigation:
       <article>
         <h2>An entire agency worth of knowledge in your inbox every week, for free</h2>
         <p>Sherpa contains everything we've learnt about building products and running teams. We've battled tested these skills with 100s of clients over the years – making the mistakes so you don't have to.</p>
-        <ul>
-          <li>Go deep on a new topic every month</li>
-          <li>Tried-and-tested frameworks, methods and hacks</li>
-          <li>Early-access to web classes, workshops and courses</li>
-          <li>Free templates, tools and docs for your team</li>
+        <p><strong>Upcoming Topics</strong></p>
       </article> 
     </div>
   </div>

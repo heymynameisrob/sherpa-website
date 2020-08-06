@@ -3,23 +3,23 @@
   --color-text-med:#444;
   --color-text-low:#888;
 
-  --color-primary:#3b5bdb;
-  --color-primary-dark:#0D1F77;
-  --color-primary-muted:#EDF2FF;
+  --color-primary:#EB482D;
+  --color-primary-dark:#982613;
+  --color-primary-muted:#FFE3DE;
   
-  --color-muted: #F1F3F5;
-  --color-grey:#CED4DA;
+  --color-muted: #DEE1F2;
+  --color-grey:#A5A9B4;
   --color-bg: #fff;
 
-  --font-stack-headline:'Inter', -system-ui, sans-serif;
-  --font-stack-body:var(--font-stack-headline);
+  --font-stack-headline:'Bagnard','Rubik', -system-ui, sans-serif;
+  --font-stack-body:'Rubik', -system-ui, sans-serif;
 
   --type-xs:0.75rem;
   --type-sm:0.875rem;
   --type-base:1rem; 
   --type-md:1.125rem;
-  --type-lg:1.25rem; 
-  --type-xl:1.75rem;
+  --type-lg:1.5rem; 
+  --type-xl:2.25rem;
 
   --p-base:1rem;
   --p-1:0.5rem;

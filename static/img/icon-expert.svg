@@ -16,9 +16,9 @@
                 <g id="library" transform="translate(16.000000, 16.000000)">
                     <g id="Shape" fill-rule="nonzero">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#3B5BDB" xlink:href="#path-1"></use>
+                        <use fill="#EB482D" xlink:href="#path-1"></use>
                     </g>
-                    <polygon id="Path" fill-opacity="0.5" fill="#3B5BDB" points="0 28.8 32 28.8 32 32 0 32"></polygon>
+                    <polygon id="Path" fill-opacity="0.5" fill="#EB482D" points="0 28.8 32 28.8 32 32 0 32"></polygon>
                 </g>
             </g>
         </g>

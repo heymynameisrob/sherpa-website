@@ -16,9 +16,9 @@
                 <g id="badge" transform="translate(21.000000, 14.000000)">
                     <g id="Shape" fill-rule="nonzero">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#3B5BDB" xlink:href="#path-1"></use>
+                        <use fill="#EB482D" xlink:href="#path-1"></use>
                     </g>
-                    <path d="M18,21.15 L18,36 L10.8,28.8 L3.6,36 L3.6,21.15 C7.92218266,24.1788765 13.6778173,24.1788765 18,21.15 Z" id="Path" fill-opacity="0.5" fill="#3B5BDB"></path>
+                    <path d="M18,21.15 L18,36 L10.8,28.8 L3.6,36 L3.6,21.15 C7.92218266,24.1788765 13.6778173,24.1788765 18,21.15 Z" id="Path" fill-opacity="0.5" fill="#EB482D"></path>
                 </g>
             </g>
         </g>

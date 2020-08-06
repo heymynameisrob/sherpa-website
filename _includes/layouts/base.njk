@@ -1,71 +1,11 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ renderData.title or title or metadata.title }}</title>
-    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
-    <link rel="manifest" href="/static/img/site.webmanifest">
-    <link rel="mask-icon" href="/static/img/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/static/img/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/static/img/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">    
-    <meta property="og:title" content="{{ metadata.title }}">
-    <meta property="og:site_name" content="Sherpa">
-    <meta property="og:url" content="https://sherpatoolbox.com">
-    <meta property="og:description" content="{{ metadata.description }}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://sherpatoolbox.com/static/img/og-image.jpg">
-    <link rel="stylesheet" href="{{ '/static/style.css' | url }}">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-        window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-        "palette": {
-            "popup": {
-            "background": "#3b5bdb"
-            },
-            "button": {
-            "background": "#1d1d1d",
-                        "text": "#fff"
-            }
-        },
-        "theme": "classic",
-        "position": "bottom-left",
-        "content": {
-            "href": "/privacy-policy"
-        }
-        })});
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29443215-3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-29443215-3');
-    </script>
-    <!-- Hotjar Tracking Code for https://sherpatoolbox.com/ -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1883588,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
-  </head>
+  {% include "head.njk" %}
   <body>     
+    <nav>
+      <a href="/">{% include "Icon.svg" %}</a>
+      <a href="mailto:rob.hough@nuom.co.uk?subject=Sherpa">Contact</a>
+    </nav>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
