@@ -18,9 +18,9 @@
   --type-xs:0.75rem;
   --type-sm:0.875rem;
   --type-base:1rem; 
-  --type-md:1.125rem;
-  --type-lg:1.5rem; 
-  --type-xl:2.25rem;
+  --type-md:clamp(1.125rem, 1.25vw, 1.25rem);
+  --type-lg:clamp(1.5rem, 1.5vw, 2rem);
+  --type-xl:clamp(2rem, 3vw, 3rem);
 
   --p-base:1rem;
   --p-1:0.5rem;
@@ -33,11 +33,7 @@
   
 }
 @media(min-width:80rem) {
-  :root {
-    --type-base:1.125rem;
-    --type-md:1.5rem;
-    --type-lg:2rem; 
-    --type-xl:3rem;
+  :root {    
         
     --p-6:5rem;
     --p-7:7rem; 
@@ -219,6 +215,39 @@ small {
     grid-column: 3 / 11;
   }
 }
+section {
+  padding-bottom:var(--p-6);
+}
+.section-pt {
+  padding-top:var(--p-6);
+}
+@media(min-width:48rem) {
+  section {
+    padding-bottom:var(--p-7);
+  }
+  section.section-pt {
+    padding-top:var(--p-7);
+  }
+}
+nav {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding:var(--p-3);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow:row nowrap;
+}
+nav a {
+  display:inline-block;
+  color:var(--color-text-high);
+  font-weight:400;
+}
+nav svg {
+  max-width:48px;
+}
 header[role="banner"] {
   display:grid;
   align-items:center;
@@ -237,13 +266,16 @@ header[role="banner"] picture img {
 @media(min-width:48rem) {
   header[role="banner"] {
     height:100vh;
-    padding-top:0;
+    padding:0;
   }
   header[role="banner"] .header--inner {  
     max-width:calc(100vw - 10%);  
   }
   header[role="banner"] h1 {
     max-width: 17ch;
+  }
+  header[role="banner"] p {
+    max-width:42ch;
   }
 }
 header[role="banner"] .header--inner article,
@@ -278,39 +310,6 @@ header[role="banner"] ul li:before {
   position: relative;
   content: '✓';
   left:-1rem;
-}
-section {
-  padding-bottom:var(--p-6);
-}
-.section-pt {
-  padding-top:var(--p-6);
-}
-@media(min-width:48rem) {
-  section {
-    padding-bottom:var(--p-7);
-  }
-  section.section-pt {
-    padding-top:var(--p-7);
-  }
-}
-nav {
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  padding:var(--p-3);
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow:row nowrap;
-}
-nav a {
-  display:inline-block;
-  color:var(--color-text-high);
-  font-weight:400;
-}
-nav svg {
-  max-width:48px;
 }
 footer {
   display:block;
