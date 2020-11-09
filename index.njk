@@ -4,25 +4,11 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-
-<header role="banner">
-  <div class="l-container header--inner"> 
-    <article>
-      <h1>Do better at work in under 5 minutes</h1>
-      <p>Get the weekly email that helps you work better with your team. Improve your skills, level-up your career and build better products, all for free</p>    
-      {% include "_includes/signup.njk" %}
-      <ul>
-        <li>Hand-written insights every week</li>
-        <li>Actionable steps to improve your workflow</li>
-        <li>Thought-provoking things to read, listen, and watch</li>
-        <li>Early access to tools, web classes and events</li>
-      </ul>
+<div class="l-container center-block"> 
+   <article>
+      {% include "Icon.svg" %}
+      <h1>Do your best work, faster</h1>
+      <p>A weekly column to help improve your teams performance and unlock huge growth, with bite-sized lessons and insights from the worlds best product teams.</p>    
+      {% include "_includes/signup.njk" %}   
     </article>
-    <aside>
-      <picture>
-        <source media="(min-width: 48rem)" srcset="/static/img/Screenshot.png, /static/img/Screenshot@2x.png 2x" />
-        <img srcset="/static/img/screenshot-mobile@2x.png 2x" src="/static/img/screenshot-mobile.png" alt="Sherpa" loading="lazy" />
-      </picture>
-    </aside> 
   </div>
-</header>

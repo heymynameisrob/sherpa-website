@@ -2,19 +2,16 @@
 <html lang="en">
   {% include "head.njk" %}
   <body>     
-    <nav>
-      <a href="/">{% include "Icon.svg" %}</a>
+    <nav>      
       <a href="mailto:rob.hough@nuom.co.uk?subject=Sherpa">Contact</a>
     </nav>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
-    </main>
-    <footer>
-      <div class="l-container">
+      <footer>
         <small>&copy; 2020. Built by nuom </small>
         <a href="/privacy-policy">Privacy Policy</a>
-      </div>
-    </footer>    
+      </footer>    
+    </main>   
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script src="{{ '/static/main.js' | url }}"></script>   
     <script>

@@ -20,10 +20,8 @@ h4 {
 h1,
 .t-xl { 
   font-size: var(--type-xl); 
-  letter-spacing: -0.02em; 
-  font-weight:500;
+  letter-spacing: -0.02em;   
   font-family:var(--font-stack-headline);
-  color:var(--color-primary);
 }
 h2,
 .t-lg { 
