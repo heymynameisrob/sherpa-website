@@ -46,7 +46,7 @@ body {
   font-weight:400;
   font-size:1rem;
   color:var(--color-text-high);
-  background-color:var(--color-muted);
+  background-color:var(--color-bg);
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 

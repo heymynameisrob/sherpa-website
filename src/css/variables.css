@@ -1,18 +1,20 @@
+/* Components */
 :root {
-  --color-text-high:#1d1d1d;
-  --color-text-med:#444;
-  --color-text-low:#888;
+  --color-text-high:rgba(255,255,255,1);
+  --color-text-med:rgba(255,255,255,0.8);
+  --color-text-low:rgba(255,255,255,0.6);
 
-  --color-primary:#EB482D;
-  --color-primary-dark:#982613;
-  --color-primary-muted:#FFE3DE;
+  --color-primary:#FD365F;
+  --color-primary-dark:#9a1631;
+  --color-primary-muted:#fcd2da;
   
-  --color-muted: #DEE1F2;
-  --color-grey:#A5A9B4;
-  --color-bg: #fff;
+  --color-muted: rgba(255,255,255,0.1);
+  --color-grey:#rgba(255,255,255,0.2);
+  --color-bg: #221E31;
 
-  --font-stack-headline:'Inter', -system-ui, sans-serif;
-  --font-stack-body:'Inter', -system-ui, sans-serif;
+  --font-stack-headline:'DM Sans', -system-ui, sans-serif;
+  --font-stack-body:'DM Sans', -system-ui, sans-serif;
+  --font-stack-mono:'DM Mono', -system-ui, sans-serif;
 
   --type-xs:0.75rem;
   --type-sm:0.875rem;
@@ -31,7 +33,6 @@
   --p-7:5rem;
   
 }
-
 @media(min-width:80rem) {
   :root {    
         

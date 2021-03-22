@@ -42,12 +42,13 @@ h4,
   letter-spacing:0.01em; 
 }
 h5 {
+  font-family:var(--font-stack-mono);
   font-size:var(--type-sm);
   letter-spacing: 2px;
   text-transform: uppercase;
-  color:var(--color-text-low);
+  color:#FF986A;
   font-weight:bold;
-  margin:0 0 var(--p-2) 0;
+  margin:var(--p-2) 0 0 0;
 }
 
 p {
