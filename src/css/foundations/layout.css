@@ -51,13 +51,33 @@ section {
 
 .center-block {
   display:grid;
-  place-items: center;
-  height:100%;
+  place-items: center;  
   text-align: center;
-  max-width:640px;
+  max-width:780px;
   margin:0 auto;
 }
 
-.center-block svg {
-  margin-bottom:var(--p-2);
+.center-block p {
+  max-width:45ch;
+  margin:0 auto;
 }
+
+grid {
+  --tc:3;
+  display:block;
+  grid-template-columns: repeat(var(--tc), 1fr);
+  grid-gap:var(--p-2);
+  min-height: 1px;  
+}
+
+@media(min-width:48rem) {
+  grid {
+    display:grid;
+  }
+}
+
+grid[columns*="4"]    { --tc:4 }
+grid[columns*="6"]    { --tc:6 }
+grid[columns*="8"]    { --tc:8 }
+grid[columns*="10"]    { --tc:10 }
+grid[columns*="12"]    { --tc:12 }

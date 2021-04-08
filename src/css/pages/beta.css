@@ -1,0 +1,15 @@
+.beta grid {
+  align-items: center;
+}
+.beta grid article {
+  grid-column: span 6;  
+}
+.beta grid aside {
+  grid-column: span 4;
+}
+
+@media(min-width:48rem) {
+  .beta grid article {
+    padding-right:10%;
+  }
+}

@@ -1,13 +1,9 @@
-nav {
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  padding:var(--p-3);
+nav {  
   display:flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-flow:row nowrap;
+  padding:var(--p-3);
 }
 nav a {
   display:inline-block;
@@ -15,7 +11,8 @@ nav a {
   font-weight:400;
 }
 nav svg {
-  max-width:48px;
+  max-width:4rem;
+  max-height:4rem;
 }
 
 header[role="banner"] {
@@ -64,4 +61,8 @@ header[role="banner"] ul li:before {
   position: relative;
   content: '✓';
   left:-1rem;
+}
+
+nav + main {
+  margin-top:var(--p-7);
 }

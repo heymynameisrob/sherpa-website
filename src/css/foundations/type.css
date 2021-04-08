@@ -12,6 +12,7 @@ h4 {
   line-height:1.2;  
   color:var(--color-text-high);
   margin:0 0 0.5em 0;
+  letter-spacing: -0.02em;
 }
 .t-no-margin {
   margin:0;
@@ -19,15 +20,12 @@ h4 {
 
 h1,
 .t-xl { 
-  font-size: var(--type-xl); 
-  letter-spacing: -0.02em;   
+  font-size: var(--type-xl);    
   font-family:var(--font-stack-headline);
 }
 h2,
 .t-lg { 
-  font-size: var(--type-lg); 
-  letter-spacing: -0.01em; 
-  font-weight:500;
+  font-size: var(--type-lg);   
   font-family:var(--font-stack-headline);
   color:var(--color-primary);
 }

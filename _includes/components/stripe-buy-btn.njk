@@ -1,0 +1,51 @@
+<!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+  class="button button-primary"
+  id="checkout-button-price_1Iae5dHnVlDxGhsaeKM7xG2s"
+  role="link"
+  type="button"
+>
+ Buy Sherpa for £1 <del>£499</del>
+</button>
+
+<div id="error-message"></div>
+
+<script>
+(function() {
+  var stripe = Stripe('pk_live_51IY7VKHnVlDxGhsalLIwOL2u4FX8R8NTmTn03bpJ1MTHSBGkP96S57JKdWz4swdfCuKiy3NzMkbJE672KLLqikjo00vnq0SjFs');
+
+  var checkoutButton = document.getElementById('checkout-button-price_1Iae5dHnVlDxGhsaeKM7xG2s');
+  checkoutButton.addEventListener('click', function () {
+    /*
+     * When the customer clicks on the button, redirect
+     * them to Checkout.
+     */
+    stripe.redirectToCheckout({
+      lineItems: [{price: 'price_1Iae5dHnVlDxGhsaeKM7xG2s', quantity: 1}],
+      mode: 'payment',
+      /*
+       * Do not rely on the redirect to the successUrl for fulfilling
+       * purchases, customers may not always reach the success_url after
+       * a successful payment.
+       * Instead use one of the strategies described in
+       * https://stripe.com/docs/payments/checkout/fulfill-orders
+       */
+      successUrl: window.location.protocol + '//www.sherpacommunity.co.uk/buy-success',
+      cancelUrl: window.location.protocol + '//www.sherpacommunity.co.uk/buy-cancelled',
+    })
+    .then(function (result) {
+      if (result.error) {
+        /*
+         * If `redirectToCheckout` fails due to a browser or network
+         * error, display the localized error message to your customer.
+         */
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>

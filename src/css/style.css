@@ -9,3 +9,7 @@
 @import 'components/footer.css';
 @import 'components/controls.css';
 @import 'components/sections.css';
+@import 'components/buy.css';
+
+@import 'pages/beta.css';
+@import 'pages/home.css';

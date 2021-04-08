@@ -1,0 +1,49 @@
+<section class="buy-card">
+  <h2>Join Sherpa Community</h2>
+  <small>Pay once. Access forever.</small>
+  <ul class="buy-card-list">
+    <li>
+      {% include "components/check.svg" %}
+      <div class="buy-card-list__label">
+        <p>Vibrant community of founders</p>
+      </div>
+    </li>
+    <li>
+      {% include "components/check.svg" %}
+      <div class="buy-card-list__label">
+        <p>Weekly clinic calls with experts</p>
+      </div>
+    </li>
+    <li>
+      {% include "components/check.svg" %}
+      <div class="buy-card-list__label">
+        <p>100+ curated product resources</p>
+      </div>
+    </li>
+    <li>
+      {% include "components/check.svg" %}
+      <div class="buy-card-list__label">
+        <p>Private events and roundtables</p>
+      </div>
+    </li>
+    <hr>
+    <li>
+      {% include "components/soon.svg" %}
+      <div class="buy-card-list__label">
+        <small>Coming soon!</small>
+        <p>"How to Build a Startup" Playbook</p>
+      </div>
+    </li>
+    <li>
+      {% include "components/soon.svg" %}
+      <div class="buy-card-list__label">
+        <small>Coming soon!</small>
+        <p>Exlcusive deals and discounts</p>
+      </div>
+    </li>
+  </ul>
+  <div class="buy-card__buttons">
+    {% include "components/stripe-buy-btn.njk" %}
+    <small>Checkout handled by Stripe. BETA members only.</small>
+  </div>
+</section>

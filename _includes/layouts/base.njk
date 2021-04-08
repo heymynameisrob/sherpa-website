@@ -1,10 +1,8 @@
 <!doctype html>
 <html lang="en">
   {% include "head.njk" %}
-  <body>     
-    <nav>      
-      <a href="mailto:rob.hough@nuom.co.uk?subject=Sherpa">Contact</a>
-    </nav>
+  <body class="{% if templateClass %}{{templateClass}}{% endif %}">     
+    <nav><a href="/">{% include "Icon.svg" %}</a></nav>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
       <footer>

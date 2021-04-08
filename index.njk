@@ -1,15 +1,44 @@
 ---
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Home
-  order: 1
+templateClass: home
 ---
 <div class="l-container center-block"> 
-   <article>
-      {% include "Icon.svg" %}
-      <h1>Sherpa is the community that builds your startup</h1>
-      <p>Access an exclusive network of founders, makers and product experts to help you launch great ideas, develop new products and take your startup from dream to reality</p>    
-      <h5>Join the waiting list to guarantee your place</h5>
-      {% include "_includes/signup.njk" %}   
+  <article>    
+    <h1>Sherpa is the community that builds your startup</h1>
+    <p>Access an exclusive network of founders, makers and product experts to help you launch great ideas, develop new products and take your startup from dream to reality</p>    
+    <h5>Join the waiting list to guarantee your place</h5>
+    {% include "_includes/signup.njk" %}   
+  </article>
+</div>
+<div class="l-container feature-blocks">
+  <section>
+    <article>
+      <h5>Community</h5>
+      <h2>Join a network of people rooting for your success</h2>
+      <p>There are tons of product leaders and entrepreneurs just waiting to connect with you. Craft your personal network, find a co-founder and build your startup with ambitious thinkers like you.</p>
     </article>
-  </div>
+    <aside>
+      <img src="/static/img/community.png" srcset="/static/img/community@2x.png 2x" loading="lazy" alt="Community" />
+    </aside>
+  </section>
+  <section>
+    <article>
+      <h5>Coaching & Events</h5>
+      <h2>Live training and consultancy from product experts</h2>
+      <p>Drive breakout success by learning from those who’ve been there. We bring in experts to help with design, tech, investing and much more. Our weekly clinic calls will help you level-up your skills quickly.</p>
+    </article>
+    <aside>
+      <img src="/static/img/coaching.png" srcset="/static/img/coaching@2x.png 2x" loading="lazy" alt="Coaching & Events" />
+    </aside>
+  </section>
+  <section>
+    <article>
+      <h5>Playbook</h5>
+      <h2>Go from idea to reality with tried-and-tested methods</h2>
+      <p>Plugin to the tactics and strategy we’ve used to launch 100’s of successful startups. This playbook will guide you from idea to MVP, walking you through every step of the way.</p>
+    </article>
+    <aside>
+      <img src="/static/img/playbook.png" srcset="/static/img/playbook@2x.png 2x" loading="lazy" alt="Playbook" />
+    </aside>
+  </section>
+</div>
