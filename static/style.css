@@ -322,7 +322,7 @@ header[role="banner"] ul li:before {
   left:-1rem;
 }
 nav + main {
-  margin-top:var(--p-7);
+  margin-top:var(--p-3);
 }
 footer {
   display:block;
@@ -586,6 +586,12 @@ input[type="submit"]:hover {
   border-radius:var(--p-2);
   background-color: white;
   box-shadow:0 0 1rem rgba(0,0,0,0.5);  
+  margin-top:var(--p-4);
+}
+@media(min-width:48rem) {
+  .buy-card {
+    margin-top:0;
+  }
 }
 .buy-card h2 {
   color:#1d1d1d;
@@ -640,7 +646,7 @@ input[type="submit"]:hover {
   }
 }
 .home .feature-blocks {
-  margin-top:var(--p-7);
+  margin-top:var(--p-5);
 }
 .home .feature-blocks section {
   display:flex;

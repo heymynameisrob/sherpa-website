@@ -7,6 +7,12 @@
   border-radius:var(--p-2);
   background-color: white;
   box-shadow:0 0 1rem rgba(0,0,0,0.5);  
+  margin-top:var(--p-4);
+}
+@media(min-width:48rem) {
+  .buy-card {
+    margin-top:0;
+  }
 }
 .buy-card h2 {
   color:#1d1d1d;

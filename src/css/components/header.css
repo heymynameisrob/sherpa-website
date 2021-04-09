@@ -64,5 +64,5 @@ header[role="banner"] ul li:before {
 }
 
 nav + main {
-  margin-top:var(--p-7);
+  margin-top:var(--p-3);
 }
