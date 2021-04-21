@@ -265,8 +265,14 @@ nav {
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-flow:row nowrap;
+  flex-flow:column nowrap;
   padding:var(--p-3);
+}
+@media(min-width:48rem) {
+  nav {
+    justify-content: space-between;
+    flex-flow:row nowrap;
+  }
 }
 nav a {
   display:inline-block;
@@ -276,6 +282,16 @@ nav a {
 nav svg {
   max-width:4rem;
   max-height:4rem;
+}
+nav ul {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:wrap;
+}
+nav ul > * + * {
+  margin-left:.75rem;
+  margin-right:.75rem;
 }
 header[role="banner"] {
   display:block; 

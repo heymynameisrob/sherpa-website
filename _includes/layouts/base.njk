@@ -2,7 +2,13 @@
 <html lang="en">
   {% include "head.njk" %}
   <body class="{% if templateClass %}{{templateClass}}{% endif %}">     
-    <nav><a href="/">{% include "Icon.svg" %}</a></nav>
+    <nav>
+      <a href="/">{% include "Icon.svg" %}</a>
+      <ul>
+        <li><a href="https://app.sherpacommunity.co.uk">Login</a></li>
+        <li><a href="mailto:rob.hough@nuom.co.uk?subject=Sherpa">Contact</a></li>
+      </ul>
+    </nav>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
       <footer>
