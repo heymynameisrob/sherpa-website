@@ -41,7 +41,7 @@
     "precss": "^4.0.0"
   },
   "dependencies": {
-    "luxon": "^1.23.0",
+    "luxon": "^1.28.1",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.7"
   }
